@@ -1,3 +1,3 @@
-temperature = celsuius_100
-print(temperature - 32) * (5/8)
-print(temperature)
+celsuis_100 = (100-32) * (5/9)
+print(celsuis_100)
+
