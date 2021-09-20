@@ -42,7 +42,7 @@ a = 1
 b = 1
 c = (a >= b)
 
-print(f"The value of c ({c}) is True since a ({a}) is greater than b ({b}).")
+print(f"The value of c ({c}) is True since a ({a}) is greater than or equal b ({b}).")
 assert(c == True) #Do not change this line
 
 print()
@@ -68,7 +68,7 @@ n = "goat"
 
 o = (m != n)
 
-print (f"The value of o ({o}) is True since Python is case-sensitive.")
+print (f"The value of o ({o}) is True since Python is case-sensitive and we added the not function.")
 assert(o == True) #Do not change this line
 
 print()
