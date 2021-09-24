@@ -20,23 +20,23 @@ print(f"In the 2020 NBA playoffs, James Harden made {james_harden_3pts_made} 3 p
 
 print("Challenge 2.3: Store the number of three point shot attempts in variables for each player")
 # TODO: Create variable here for number of 3 pt shot attempts by Jamal Murray
-jamal_murray = '93 shot attempts'
+jamal_murray_attempts = 93 
 # TODO: Create variable here for number of 3 pt shot attempts by Fred VanVleet
-fred_van_vleet = '110 shot attempts'
+fred_van_vleet_attempts = 110 
 # TODO: Create variable here for number of 3 pt shot attempts by James Harden
-james_harden = '109 shot attempts'
-print(jamal_murray)
-print(fred_van_vleet)
-print(james_harden)
+james_harden_attempts = 109 
+print(jamal_murray_attempts)
+print(fred_van_vleet_attempts)
+print(james_harden_attempts)
 
 print("Challenge 2.4: Build on your print statement")
 # TODO: Copy the three print statements you wrote in Challenge 2.2 and extend them to also print
 # the number of three point shots for each player. E.g., output should be similar to
 # "In the 2020 NBA playoffs, player X made Y 3 point shots and Z 3 point shot attempts."
 
-print(f"In the 2020 NBA playoffs, Jamal Murray made {jamal_murray_3pts_made}, 3 point shots {jamal_murray}")
-print(f"In the 2020 NBA playoffs, Jamal Murray made {fred_van_vleet_3pts_made}, 3 point shots {fred_van_vleet}")
-print(f"In the 2020 NBA playoffs, Jamal Murray made {james_harden_3pts_made }, 3 point shots {james_harden}")
+print(f"In the 2020 NBA playoffs, Jamal Murray made {jamal_murray_3pts_made}, 3 point shots {jamal_murray_attempts}")
+print(f"In the 2020 NBA playoffs, Jamal Murray made {fred_van_vleet_3pts_made}, 3 point shots {fred_van_vleet_attempts}")
+print(f"In the 2020 NBA playoffs, Jamal Murray made {james_harden_3pts_made }, 3 point shots {james_harden_attempts}")
 
 print("Challenge 2.5: Calculate, store, and print the three point percentage for each player")
 # TODO: Calculate the three point percentage, which is given by `three points made/three point attempts`
@@ -54,7 +54,7 @@ print("The Lakers went all in this offseason and swung a deal for former Pelican
 
 #Challenge 3.3 Are the Lakers the best team?
 lakers_are_best = True
-print(f"The Lakers are the best team in the NBA {lakers_are_best} ")
+print(f"The Lakers are the best team in the NBA. {lakers_are_best} ")
 
 #Challenge 3.4 Type conversion
 #Convert your lakers_are_best variable to an integer, and print it out.
