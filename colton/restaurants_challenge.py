@@ -30,13 +30,9 @@ restaurant = {
     "transactions": ["pickup", "delivery"]
 }
 
-print(restaurant["latitude"])
-print(restaurant["longitude"])
-print(restaurant["address1"]) 
-print(restaurant["city"])
-print(restaurant["state"])
-print(restaurant["zip_code"])
-
+print(f"The latitude of Four Barrell Coffee is : {restaurant['latitude']}")
+print(f"The longitude of Four Barrell Coffee is: {restaurant['longitude']}")
+print(f"The address of Four Barrell Coffee is: {restaurant['address1']}")
 # TODO: Write code to print the latitude and longitude of Four Barrel Coffee.
 # TODO: Write code to print the complete address of the Four Barrel Coffee, formatted as a string - it should include the address, city, state and the zip code.
 # TODO: Write code to print the URL of the website of Four Barrel Coffee.
