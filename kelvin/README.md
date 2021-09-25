@@ -1,1 +1,0 @@
-cp temperature.py ../../serena_killion_folder
