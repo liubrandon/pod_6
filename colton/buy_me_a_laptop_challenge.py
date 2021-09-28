@@ -6,7 +6,18 @@ all_laptops = ["Apple MacBook Pro", "Asus Zenbook", "Dell XPS", "Lenovo IdeaPad"
 
 
 # TODO: Write code to print all laptop names
-print("All laptops names:")
+print(all_laptops[0])
+print(all_laptops[1])
+print(all_laptops[2])
+print(all_laptops[3])
+print(all_laptops[4])
+print(all_laptops[5])
+
+print("The cooler and easier way to print all the laptops out is the forward slash dot join function!!!")
+
+print('\n'.join(all_laptops))
+
+
 
 
 # Challenge 2
