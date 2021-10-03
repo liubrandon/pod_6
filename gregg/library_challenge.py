@@ -45,7 +45,7 @@ def check_in(book):
 check_in('SAPEINS')
 # Bonus: Run available_books function to see if the book was checked in
 available_books()
-
+print()
 # 1.7
 # Create a function 'search_by_name' that prints 'Available' if exists in books list, 'Not Available' if it doesn't.
 # Parameters: book (string)
@@ -154,18 +154,19 @@ print('This is a dictionary nested inside of a list. You can tell because there 
 # Parameters: Not needed for this function
 # Return: number of books (integer)
 def count_books():
-    print(len(books_with_details))
+    return(len(books_with_details))
 
 # 2.2
 # Check the number of books available in the books list using the count_books function
-count_books()
+print(count_books())
 # 2.3
 # Create a function 'search_by_author' that returns the titles of books by an author
 # Parameters - author (string)
 # Return - author's books (list of strings)
 # Hint - You will need a for loop, if statement, .append() for this solution!
-books_by_author = []
+
 def search_by_author(author):
+    books_by_author = []
     for book in books_with_details:
         if book['author'] == author:
             books_by_author.append(book['title'])
@@ -173,5 +174,4 @@ def search_by_author(author):
 
 # 2.4
 # Search for book titles by the author 'Timothy Snyder' using the search_by_author function
-search_by_author('Timothy Snyder')
-print(books_by_author)
+print(search_by_author('Timothy Snyder'))
