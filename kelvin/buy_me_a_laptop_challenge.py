@@ -74,33 +74,49 @@ laptops = [
 ]
 
 # TODO: Write code to print out the MacBook Pro url 
-print(laptops[0]['url'])
+laptops[0]['url']
 print()
 # TODO: Write code to print all possible prices of the 16-inch MacBook Pro.
-print(laptops[0]['types'][1]['price'])
+laptops[0]['types'][1]['price']
 print()
 # TODO: Write code to print all the color options for Dell XPS 13.
-print(laptops[1]['types'][0]['colors'])
+laptops[1]['types'][0]['colors']
 print()
 
 # TODO: Write code to print the description of Dell XPS laptop.
-print(laptops[1]['description'])
+laptops[1]['description']
 print()
 
 
 print("Question 2: Out of Stock laptops")
 print("Suppose that the 13-inch MacBook Pro in space gray color is sold out.\
      Also, the same laptop with 1 TB storage is out of stock as well. \
-    Update the list of dictionaries such that these options are removed.\
+     Update the list of dictionaries such that these options are removed.\
      Print the updated dictionary.")
 
 # TODO: Update the laptops dictionary.
+laptops[0]['types'][0]['colors'] = 'silver'
+laptops[0]['types'][1]['storage'] = '512 GD SSD'
+
+
 
 # TODO: Print the new dictionary.
-print(laptops[0]['types'][0]['colors'].remove['coloros'][0]
+print(laptops)
 
-print("Question 3: listing all the prices")
-print("Time to look at the range of prices. Print out all possible computer prices")
 
-# TODO: print out all possible prices for the laptops
-print(laptops[0],{'prices'})
+
+# print("Question 3: listing all the prices")
+def  price (all_laptops):
+    for price in all_laptops:
+        print(price)
+
+print(all_laptops)
+# print(laptops)
+
+
+# print(3)
+
+# print("Time to look at the range of prices. Print out all possible computer prices")
+
+# # # TODO: print out all possible prices for the laptops
+# print()
