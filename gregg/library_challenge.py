@@ -1,3 +1,6 @@
+from typing import NoReturn
+
+
 print('Question 1:')
 # You are working on a library management system, here are the list books at the library
 books = ['MY OWN WORDS', 'WHITE FRAGILITY', 'THE BODY KEEPS THE SCORE', 'SO YOU WANT TO TALK ABOUT RACE', 'STAMPED FROM THE BEGINNING', 'JUST MERCY', 'BORN A CRIME',
@@ -5,37 +8,28 @@ books = ['MY OWN WORDS', 'WHITE FRAGILITY', 'THE BODY KEEPS THE SCORE', 'SO YOU 
 
 # 1.0
 # What data type is the object 'books'? How do you know?
-
 print(type(books))
+print('Books is a list, using the Type Function')
 
 # 1.1
 # Create a function 'available_books' to print the books list
 # Parameters: Not needed for this function
 # Return: Not needed for this function
-
-
 def available_books():
     print(books)
-
 
 # 1.2
 # Run the 'available_books' function
 available_books()
-
 # 1.3
 # Create a function 'check_out' that removes a book from the books list
 # Parameters: book (string)
 # Return: Not needed for this function
-
-
 def check_out(book):
     books.remove(book)
-
-
 # 1.4
 # Check out 'SAPIENS' using the check_out function
 check_out('SAPIENS')
-
 # Bonus: Run available_books function again to see if the book was checked out
 available_books()
 
@@ -43,24 +37,19 @@ available_books()
 # Create a function 'check_in' that adds a book to the books list
 # Parameters: book (string)
 # Return: Not needed for this function
-
-
 def check_in(book):
     books.append(book)
 
-
 # 1.6
 # Check in 'SAPIENS' using the check_in function
-check_in('SAPIENS')
-
+check_in('SAPEINS')
 # Bonus: Run available_books function to see if the book was checked in
-
+available_books()
+print()
 # 1.7
 # Create a function 'search_by_name' that prints 'Available' if exists in books list, 'Not Available' if it doesn't.
 # Parameters: book (string)
 # Return: Not needed for this function
-
-
 def search_by_name(book):
     if book in books:
         print('Available')
@@ -71,7 +60,6 @@ def search_by_name(book):
 # 1.8
 # Search for the book 'JUST MERCY'
 search_by_name('JUST MERCY')
-
 print()
 
 print('Question 2')
@@ -158,36 +146,19 @@ books_with_details = [
         'description': 'Snyder explores Russian attempts to influence Western democracies and the influence of philosopher Ivan Ilyin on Russian President Vladimir Putin and the Russian Federation in general.'
     }
 ]
-
 # 2.0
 # Describe the structure of the data in books_with_details. What types of data are nested within others? How do you know?
-
-# Answer: books_with_details is a list of dictionaries.
-# each dictionary has 3 key-value pairs with string values, corresponding to the title, author, and description of a book
-
-# the data type of the whole object
-print(type(books_with_details))
-
-# data type of one list element
-print(type(books_with_details[1]))
-
-# data type of a value within one of the nested list elements
-print(type(books_with_details[1]['title']))
-
+print('This is a dictionary nested inside of a list. You can tell because there are curly brackets within the square brackets')
 # 2.1
 # Create a function 'count_books' that returns the number of books in the books_with_details list
 # Parameters: Not needed for this function
 # Return: number of books (integer)
-
-
 def count_books():
-    return len(books_with_details)
-
+    return(len(books_with_details))
 
 # 2.2
 # Check the number of books available in the books list using the count_books function
 print(count_books())
-
 # 2.3
 # Create a function 'search_by_author' that returns the titles of books by an author
 # Parameters - author (string)
@@ -195,11 +166,11 @@ print(count_books())
 # Hint - You will need a for loop, if statement, .append() for this solution!
 
 def search_by_author(author):
-    author_books = []
+    books_by_author = []
     for book in books_with_details:
         if book['author'] == author:
-            author_books.append(book['title'])
-    return author_books
+            books_by_author.append(book['title'])
+    return books_by_author
 
 # 2.4
 # Search for book titles by the author 'Timothy Snyder' using the search_by_author function

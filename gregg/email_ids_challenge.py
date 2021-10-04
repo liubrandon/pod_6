@@ -14,8 +14,6 @@ names_list = lower_name.split(' ')
 joined_names = '.'.join(names_list)
 # 1.4 TODO: We want to add '@ripplemedia.com' to the end of the string inside joined_names and save it in a variable 'email'
 email = joined_names + '@ripplemedia.com'
-print(email)
-
 print()
 
 print('Question 2')
@@ -28,14 +26,13 @@ emails = []
 
 # We want to convert all their names into the same format from Question 1
 # 2.1 TODO: Use a "for" loop to go over each name in the names list
-# 2.2 TODO: Inside the "for" loop, create the email id by re-using the logic from Question 1 and...
-# 2.3 TODO: ..add the email to the emails list
-
-for name in names:
-    lower_name = name.lower()
+for employee in names:
+    lower_name = employee.lower()
     names_list = lower_name.split(' ')
     joined_names = '.'.join(names_list)
     email = joined_names + '@ripplemedia.com'
     emails.append(email)
 
 print(emails)
+# 2.2 TODO: Inside the "for" loop, create the email id by re-using the logic from Question 1 and...
+# 2.3 TODO: ..add the email to the emails list
