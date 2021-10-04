@@ -23,10 +23,8 @@ z = 30
 
 if z < x:
     print("z is less than x")
-
 elif z > x and z < y:
     print("z is between x and y")
-
 else:
     print("z is greater than y")
 

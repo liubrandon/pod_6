@@ -60,6 +60,20 @@ kelvin_fave = {
 
 # The dictionary for each restaurant should look something like this
 print(kelvin_fave)
+
+
+print("Question 3")
+
+# Imagine that any 1 of your most favourite restaurants stopped serving your favourite dish there. 
+# Remove the 'favourite_dish' key value pair from that restaurant's dictionary
+kelvin_fave.pop('fovaourite_dish')
+
+print(kelvin_fave)
+
+# TODO: Remove the 'favourite_dish' key-value pair from one of your 3 restaurants
+# TODO: Print the new dictionary. The new dictionary should only contain 'name' and 'address' for that restaurant
+# The dictionary for each restaurant should look something like this
+print(kelvin_fave)
 '''
 restaurant_1  = {
     "name": "Subway",
@@ -96,4 +110,3 @@ print(kelvin_fave["address"])
 print(kelvin_fave)
 
 print()
-
