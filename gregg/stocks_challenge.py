@@ -32,7 +32,7 @@ elif ...
 else ...
 '''
 if stock == 'amzn':
-    price = int(amazon)
+    price = amazon
     print(f'{client_name} can buy {client_savings / price} shares of Amazon')
 
 elif stock == 'aapl':
