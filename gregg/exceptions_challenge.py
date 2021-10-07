@@ -67,6 +67,8 @@ try:
     print(int(num) * int(num))
 except:
     print('Something Went Wrong!')
+finally:
+    print('The End')
 
 
 print('Question 6')
