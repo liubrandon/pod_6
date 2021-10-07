@@ -41,23 +41,24 @@ print(num_of_stucks)
 
 if stock == "amzn":
     price = amazon
-    num_of_stocks = savings
+    num_of_stocks = savings/price
 elif stock == "aapl":
     price = "aapl"
-    num_of_stocks = savings
+    num_of_stocks = savings/price
 
 elif stock == "fb":
     price = fb
-    num_of_stocks = savings
+    num_of_stocks = savings/price
 elif stock == "goog":
     price = google
-    num_of_stocks = savings
+    num_of_stocks = savings/price
 
 elif stock == "msft":
     price = msft
-    num_of_stocks = savings
+    num_of_stocks = savings/price
 else:
     price = "NA"
+
 
 print()
 
