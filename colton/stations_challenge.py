@@ -24,8 +24,11 @@ class Station:
         self.station_name = station_name
         self.location = location
     
-    def show_info(self):
-        print(f'{self.station_name} station is located at {self.location}')
+class Subway_Station(Station):
+    def __init__(self, station_name, location, lines)
+    super().__init__(station_name, location)
+    self.lines = lines
+        
 
 
 

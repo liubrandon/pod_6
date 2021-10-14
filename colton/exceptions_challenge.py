@@ -19,7 +19,7 @@ sandwiches = []
 
 for meat in meats:
     for cheese in cheeses:
-        sandwiches.append(f'{meet} & {cheese}')
+        sandwiches.append(f'{meats} & {cheeses}')
 
 print(sandwiches)
 
@@ -36,7 +36,7 @@ def repeat(str, times):
 print(repeat('python', 3))
 print(repeat('[]', 3))
 print(repeat('//', 3))
-print(repeat({}, 5))
+print(repeat('{}', 5))
 print(repeat('{[', 3))
 
 print('')
@@ -62,16 +62,22 @@ num = input("Enter a number to compute it's square value: ")
 # Line 65 currently error out if you provide an input like a dictionary instead of a number
 # TODO: Rewrite line 65 with try/except blocks to handle all exceptions. If an exception exists, print 'Something Went Wrong!'
 # TODO: Bonus: Add a finally block to print 'The End'
-print(int(num) * int(num))
+
+try:
+    print(int(num) * int(num))
+except:
+    print('Something Went Wrong!')
+finally:
+    print('The End')
 
 
 print('Question 6')
 
 # TODO: Change the code here so that the 'NameError' exception block runs.
 name = 'Yusuf'
-
+    
 try:
-    print(name.capitalize())
+    print(nam.capitalize())
 except NameError:
     print('You got to run this exception block! Your challenge is completed!')
 except:
