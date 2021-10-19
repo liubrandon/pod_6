@@ -1,0 +1,41 @@
+h1{
+    color:blue;
+    font-size: 90px;
+    text-align: center;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+ul{
+    
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+}
+#ul{
+    color:blue;
+    text-align: justify;
+     
+    
+}
+p{
+    color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+.blue  {
+    color: darkblue;
+}
+.center{
+    text-align: center;
+}
+
+#title{
+    font-size: 90px;
+    column-rule: darkblue;
+    text-align: center;
+}
+
+     
