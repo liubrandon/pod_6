@@ -35,3 +35,6 @@ def sandwich_generator(request):
 
         sandwich = f'{selected_meat} & {selected_cheese} with {selected_topping}'
         return render(request, 'sandwich_generator.html', context={ 'sandwich': sandwich })
+
+def full_menu(request):
+    return render(request, 'full_menu.html')
