@@ -37,10 +37,4 @@ def sandwich_generator(request):
         return render(request, 'sandwich_generator.html', context={ 'sandwich': sandwich })
 
 def full_menu(request):
-    full_menu = []
-    for meat in ingredients['meats']:
-        for cheese in ingredients['cheeses']:
-            for topping in ingredients['toppings']:
-                full_menu.append(f'{meat} and {cheese} with {topping}')
-
-    return render(request, 'full_menu.html', context = {'full_menu': full_menu})
+    return render(request, 'full_menu.html')
