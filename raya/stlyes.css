@@ -1,0 +1,32 @@
+h1{
+    color: teal;
+    text-align: center;
+}
+.YummMooo{ font-family: Verdana, Geneva, Tahoma, sans-serif; color: blue;
+}
+p, ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Leaf, #Cell{
+    color:green;
+    background-color: skyblue;
+    font: bolder;
+}
+
+#AP{
+    color:hotpink;
+    font-style: italic;
+    background-color: skyblue;
+}
+
+#Chem{
+    color:yellow;
+    background-color: black;
+    font: bold;
+}
+
+#Tok{
+    font-size: large;
+    font: bolder;
+}
