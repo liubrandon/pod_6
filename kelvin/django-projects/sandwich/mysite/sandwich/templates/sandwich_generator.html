@@ -1,0 +1,10 @@
+<h1>{{ sandwich|title }}</h1>
+<p>Keep refreshing the page for a new sandwich!</p>
+
+
+
+<p>Click the button to go back home!</p>
+
+<form action="{% url 'sandwich' %}">
+    <input type="submit" value="Homepage!" />
+</form>
