@@ -75,6 +75,8 @@ cover/
 # Django stuff:
 
 # Flask stuff:
+*.icloud
+
 instance/
 .webassets-cache
 
