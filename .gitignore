@@ -126,10 +126,7 @@ ENV/
 env.bak/
 venv.bak/
 django-env/
-<<<<<<< HEAD
 django-env*/
-=======
->>>>>>> 0f44ebad01e929170db7322797a5b551c6c18d83
 
 # Spyder project settings
 .spyderproject
